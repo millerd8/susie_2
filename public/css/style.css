@@ -1,0 +1,32 @@
+.image-circle {
+    border-radius: 50%;
+    width: 20%;
+}
+
+body {
+    font-family: sans-serif;
+    color: blue;
+}
+
+
+/* . indicates class selector */
+
+.top-page {
+    text-align: center;
+    width: 50%;
+    margin: 10% 15% 0% 15%;
+    /* top right bottom left */
+    padding: 5%;
+}
+
+#full-page {
+    height: 100%;
+}
+
+#condense-bottom {
+    margin-bottom: -1rem;
+}
+#condense-top-bottom {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+}
