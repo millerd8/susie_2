@@ -1,11 +1,14 @@
-.image-circle {
-    border-radius: 50%;
-    width: 20%;
+#circleimage{
+    border-radius: 50% !important;
+    width: 50%;
 }
 
+#welcome{
+    float:left;
+}
 body {
     font-family: sans-serif;
-    color: blue;
+    color: grey;
 }
 
 
@@ -29,4 +32,12 @@ body {
 #condense-top-bottom {
     margin-top: -1rem;
     margin-bottom: -1rem;
+}
+
+.smaller-card{
+    width:50% !important;
+}
+
+#centerform{
+  margin-left:20%;
 }

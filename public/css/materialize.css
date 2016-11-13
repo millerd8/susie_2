@@ -3,6 +3,10 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+ 
+ #newperson{
+    width: 50%;
+}
 .materialize-red {
   background-color: #e51c23 !important;
 }
@@ -4483,6 +4487,7 @@ small {
   background-color: #fff;
   transition: box-shadow .25s;
   border-radius: 2px;
+  margin-left: 20%;
 }
 
 .card .card-title {
@@ -4551,7 +4556,7 @@ small {
   max-width: 50%;
 }
 
-.card.horizontal .card-image img {
+.card.horizontal .card-image {
   border-radius: 2px 0 0 2px;
   max-width: 100%;
   width: auto;
@@ -4607,6 +4612,7 @@ small {
   left: 0;
   padding: 20px;
 }
+
 
 .card .card-content {
   padding: 20px;
@@ -5544,7 +5550,7 @@ button.btn-floating {
   margin-right: 5px;
 }
 
-.chip img {
+.chip{
   float: left;
   margin: 0 8px 0 -12px;
   height: 32px;
