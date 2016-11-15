@@ -1,4 +1,4 @@
-#circleimage{
+.circle-image{
     border-radius: 50% !important;
     width: 50%;
 }
@@ -30,8 +30,8 @@ body {
     margin-bottom: -1rem;
 }
 #condense-top-bottom {
-    margin-top: -1rem;
-    margin-bottom: -1rem;
+    /*margin-top: 0rem;*/
+    /*margin-bottom: -0.1rem;*/
 }
 
 .smaller-card{
@@ -40,4 +40,8 @@ body {
 
 #centerform{
   margin-left:20%;
+}
+
+#loginbutton1{
+    min-height: 850px;
 }
